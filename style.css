@@ -1,0 +1,86 @@
+body{
+  background-image:url("./image.jpg") ;
+
+  background-size:cover ;
+  background-position: center ;
+  height:600px ;
+  width: 100% ;
+  background-repeat: no-repeat;
+}
+
+nav{
+  background-color: white ;
+  align-items: center;
+  justify-content: space-between ;
+  display: flex;
+  text-align:center ;
+
+ 
+}
+nav ul {
+  display: inline-flex;
+  list-style: none;
+  color: white ;
+}
+ li {
+width: 100px;
+margin:auto;
+padding:20px;
+font-size: 25px;
+
+ }
+ *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+
+}
+a{
+  color: blue; 
+  padding-left: 15px;
+}
+
+ nav.menu-nav ul li.btn:hover a {
+  color: red;
+  list-style-type: none;
+  font-size: 35px;
+ 
+ }
+footer{
+color: black; 
+padding-top: 500px;
+padding-left: 500px ;
+font-size: 15px;
+
+}
+p{
+color: brown;
+font-size: 30px;
+padding:30px;
+}
+#about{
+color: red;
+height: 150px;
+padding-top: 700px;
+font-size: 20px;
+}
+#resume{
+  font-size: 20px;
+  color: red;
+}
+#work{
+  color: red;
+  font-size: 20px;
+}
+#contact{
+  color: red; 
+  font-size: 20px;
+}
+
+  
+
+
+
+
+
